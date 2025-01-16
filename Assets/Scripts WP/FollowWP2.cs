@@ -38,7 +38,7 @@ public class FollowWaypoints : MonoBehaviour {
 
     public void GotoRock() {
 
-        g.AStar(currentNode, wps[1]);
+        g.AStar(currentNode, wps[10]);
         currentWP = 0;
     }
 
